@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-image: url(./images/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+}
+
+.login__main{
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 30px 70px;
+    min-width: 270px;
+    min-height: 320px;
+    font-family: sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+.mainChild{
+    display: flex;
+    flex-direction: column;
+}
+.login__main h2{
+    text-align: center;
+}
+
+.logo{
+    object-fit: contain;
+    height: 100px;
+}
+
+.inputDivs{
+    margin: 30px 0 ;
+}
+.inputDivs label{
+    display: block;
+}
+.inputDivs input{
+    height: 1.6rem;
+    width: 15rem;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid rgb(146, 132, 132);
+}
+.login__main button{
+    height: 2rem;
+    width: 15rem;
+    cursor: pointer;
+    background-color: #033939;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+hr{
+    width: 15rem;
+    border: 1px solid rgb(116, 114, 114);
+    margin: 20px 0;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icon img{
+    object-fit: contain;
+    height: 26px;
+    cursor: pointer;
+}
+.facebook{
+    filter: invert(38%) sepia(15%) saturate(2183%) hue-rotate(182deg) brightness(97%) contrast(88%);
+}
+.twitter{
+    filter: invert(59%) sepia(76%) saturate(4145%) hue-rotate(164deg) brightness(99%) contrast(101%);
+}
+.instagram{
+    filter: invert(24%) sepia(85%) saturate(1912%) hue-rotate(306deg) brightness(91%) contrast(90%);
+}
